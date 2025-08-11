@@ -8,3 +8,4 @@ volumentations-3D  == 1.0.4
 monai              == 1.0.1
 pillow             == 9.3.0
 piqa               == 1.2.2
+torch>=2.8.0 # not directly required, pinned by Snyk to avoid a vulnerability
