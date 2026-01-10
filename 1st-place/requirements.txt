@@ -6,8 +6,10 @@ pandas
 Pillow
 scikit-image
 scikit-learn
-torch==1.13.1
+torch==2.9.0
 segmentation-models-pytorch
 timm
 tqdm
 tensorboard
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
