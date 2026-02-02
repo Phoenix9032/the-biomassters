@@ -5,6 +5,7 @@ tqdm               == 4.64.1
 omegaconf          == 2.2.3
 einops             == 0.6.0
 volumentations-3D  == 1.0.4
-monai              == 1.0.1
+monai==1.5.2
 pillow             == 9.3.0
 piqa               == 1.2.2
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
